@@ -53,3 +53,7 @@ The first box allows you to log in or register, while the second one enables you
 
 For real time chat, a 3rd box is dedicated to it. If you don't download Node JS Socket.js, you won't be able to do it, as you need two servers for live chatting. Additionally, the 4th box is dedicated to a feedback form.
 To navigate back to the home page, simply click on the 'Home' button.
+---------------------
+If you're having difficulty running the program, please make sure to inspect the code for any errors.
+
+
