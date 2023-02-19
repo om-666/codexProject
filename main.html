@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Boxes with Navbar</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image: url("https://i.pinimg.com/564x/f7/99/cf/f799cf7f116b0a9e3231d1c6cdc958cb.jpg");
+        background-size: cover;
+      }
+      
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+      }
+      
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .box {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+        overflow: hidden;
+      }
+      
+      .box:hover {
+        transform: scale(1.1);
+      }
+      
+      .box img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .box {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="container">
+      <div class="box">
+       <a href="login.html"> <img src="https://i.pinimg.com/564x/23/82/f9/2382f9c0433d877a116bbab4eba2b245.jpg" alt="Box 1"></a>
+      </div>
+      <div class="box">
+        <a href="placementofdemand.html"> <img src=" https://slideplayer.com/slide/14475554/90/images/4/What+is+DEMAND+DESIRE%21.jpg" alt="Box 2"></a>
+      </div>
+      <div class="box">
+       <a href="Livechat.html"> <img src=" https://www.nopcommerce.com/images/thumbs/0015520_livechat-live-chat-plugin.jpeg" alt="Box 3"></a>
+      </div>
+      <div class="box">
+        <a href="Ratingandfeedback.html"><img src="https://i.pinimg.com/564x/8a/16/d2/8a16d29f8dd17b3c5e04661529361f05.jpg" alt="Box 4" style="color: #fff;"></a>Click me
+      </div>
+    </div>
+  </body>
+</html>

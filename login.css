@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+  }
+  
+  .navbar a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+  }
+.background {
+	background-image: url('https://img.freepik.com/free-vector/background-abstract-realistic-technology-particle_23-2148431264.jpg?w=826&t=st=1676573692~exp=1676574292~hmac=bf33040812dc74906f815df6687111c0b0c0d41fb05ff07303c2158d3f74ccac');
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.form-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 50px;
+	border-radius: 10px;
+}
+
+.form-buttons {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	color: #333;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+button.active {
+	color: #007bff;
+	border-bottom: 2px solid #007bff;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+button[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
